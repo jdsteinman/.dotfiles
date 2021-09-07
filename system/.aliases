@@ -1,0 +1,33 @@
+# Navigation aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+
+# Some more aliases
+alias tarc='tar -zcf'
+alias tare='tar -zxf'
+alias rr='rm -rf'
+alias tacc='ssh steinjd@stampede2.tacc.utexas.edu'
+alias oden='ssh jsteinman@laurel.oden.utexas.edu'
+alias sys76='ssh jsteinman@wccms-a32264.oden.utexas.edu'
+
+# Program aliases
+alias python='python3'
+alias pip='pip3'
+alias vi='vim'
+alias cisco='/opt/cisco/anyconnect/bin/vpnui'
+alias openfoam='/opt/docker/installOpenFOAM && /opt/docker/startOpenFOAM'
+
+# git aliases
+alias gita="git add"
+alias gitb="git branch"
+alias gitc="git commit -m"
+alias gitd="git diff"
+alias gitp="git push"
+alias gits="git status"
+
